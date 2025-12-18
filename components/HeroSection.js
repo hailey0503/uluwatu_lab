@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "../styles/heroSection.module.css";
-import BG from "public/bg_move1.mp4";
 import { useState } from "react";
 import Header from "./Header.js"
 
@@ -25,7 +24,7 @@ const HeroSection = () => {
     <div className={styles.section}>
       <div className={styles.videoContainer}>
         <video autoPlay loop muted className={styles.video}>
-          <source src={BG} type="video/mp4" />
+          <source src="/bg_move1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
